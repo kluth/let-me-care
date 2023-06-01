@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'let',
+  displayName: 'laws',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/let',
+  coverageDirectory: '../../coverage/libs/laws',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

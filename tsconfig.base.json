@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@letmecare-monorepo/laws": ["libs/laws/src/index.ts"],
       "@letmecare-monorepo/users": ["libs/users/src/index.ts"]
     }
   },

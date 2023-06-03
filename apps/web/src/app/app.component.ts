@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { UiLayoutModule } from '@letmecare/ui-layout';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [UiLayoutModule, RouterModule],
   selector: 'letmecare-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],

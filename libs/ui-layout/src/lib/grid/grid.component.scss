@@ -1,0 +1,20 @@
+// The header element is displayed as a flex container 
+// with a row flex direction. 
+// Its contents are spaced evenly around the header 
+// and aligned at the baseline.
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+// The main element is displayed as a block element.
+main {
+    display: block;
+}
+
+// The footer element is displayed as a flex container.
+footer {
+    display: flex;
+}
